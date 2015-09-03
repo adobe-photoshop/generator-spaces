@@ -71,6 +71,40 @@ var init = function (domainManager, generator, logger) {
             }
         ]
     );
+    
+    domainManager.registerCommand(
+        domainName,
+        "copyFile",
+        function (payload, callback) {
+            webHandler.copyFile(payload).nodeify(callback);
+        },
+        true,
+        "Copy file",
+        [
+            {
+                name: "payload",
+                type: "object",
+                description: "should contain props: sourcePath, targetPath"
+            }
+        ]
+    );
+    
+    domainManager.registerCommand(
+        domainName,
+        "deleteFiles",
+        function (payload, callback) {
+            webHandler.deleteFiles(payload).nodeify(callback);
+        },
+        true,
+        "Delete files",
+        [
+            {
+                name: "payload",
+                type: "object",
+                description: "should contain one prop: filePaths"
+            }
+        ]
+    );
 };
 
 exports.init = init;
