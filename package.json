@@ -9,7 +9,9 @@
     "url": "https://github.com/adobe-photoshop/generator-spaces"
   },
   "contributors": [
-    "Cory McIlroy <mcilroy@adobe.com>"
+    "Cory McIlroy <mcilroy@adobe.com>",
+    "Ian Wehrman <wehrman@adobe.com>",
+    "Shaoshing Lee <shalee@adobe.com>"
   ],
   "license": "MIT",
   "readmeFilename": "README.md",
