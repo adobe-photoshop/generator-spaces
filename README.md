@@ -1,0 +1,1 @@
+This is a generator plugin that provides [Photoshop Design Space](https://github.com/adobe-photoshop/spaces-design) with a websocket API for exporting Assets.  Currently it only supports the generation of PNG files based on a single layer/group/artboard.
