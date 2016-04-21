@@ -34,7 +34,7 @@
     exports.init = function (generator, config, logger) {
         process.nextTick(function () {
             logger.info("Starting websocket server...");
-            generator.startWebsocketServer(pkg.name, PORT, domainDefinition, "file://")
+            generator.startWebsocketServer(pkg.name, PORT, domainDefinition)
                 .then(function (port) {
                     logger.info("Started websocket server on port", port);
                     return generator.getCustomOptions(pkg.name);
