@@ -116,16 +116,8 @@
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-3.8.0.tgz"
     },
     "sanitize-filename": {
-      "version": "1.5.3",
-      "resolved": "https://registry.npmjs.org/sanitize-filename/-/sanitize-filename-1.5.3.tgz"
-    },
-    "truncate-utf8-bytes": {
-      "version": "1.0.1",
-      "resolved": "https://registry.npmjs.org/truncate-utf8-bytes/-/truncate-utf8-bytes-1.0.1.tgz"
-    },
-    "utf8-byte-length": {
-      "version": "1.0.3",
-      "resolved": "https://registry.npmjs.org/utf8-byte-length/-/utf8-byte-length-1.0.3.tgz"
+      "version": "1.4.5",
+      "resolved": "https://registry.npmjs.org/sanitize-filename/-/sanitize-filename-1.4.5.tgz"
     }
   }
 }

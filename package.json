@@ -20,7 +20,7 @@
     "generator-assets": "github:adobe-photoshop/generator-assets#v2.7.2",
     "js-string-escape": "^1",
     "lodash": "~3.8",
-    "sanitize-filename": "^1.4"
+    "sanitize-filename": "1.4.x"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
