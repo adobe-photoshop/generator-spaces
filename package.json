@@ -16,7 +16,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "generator-assets": "git+https://github.com/adobe-photoshop/generator-assets.git",
+    "generator-assets": "github:adobe-photoshop/generator-assets#v2.7.2",
     "bluebird": "~2.9",
     "lodash": "~3.8",
     "sanitize-filename": "^1.4",
