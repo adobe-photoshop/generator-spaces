@@ -16,16 +16,16 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "generator-assets": "github:adobe-photoshop/generator-assets#v2.7.2",
     "bluebird": "~2.9",
+    "generator-assets": "github:adobe-photoshop/generator-assets#v2.7.2",
+    "js-string-escape": "^1",
     "lodash": "~3.8",
-    "sanitize-filename": "^1.4",
-    "js-string-escape": "^1"
+    "sanitize-filename": "^1.4"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-jscs": "^1.6",
     "grunt-contrib-jshint": "^0.11",
+    "grunt-jscs": "^1.6",
     "jscs-trailing-whitespace-in-source": "^0.0.1"
   }
 }
