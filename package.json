@@ -1,6 +1,6 @@
 {
   "name": "generator-spaces",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Generator plugin providing asset export services to Photoshop Spaces",
   "main": "main.js",
   "generator-core-version": "^3.6",
