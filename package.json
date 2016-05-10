@@ -17,7 +17,7 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "bluebird": "~2.9",
-    "generator-assets": "github:adobe-photoshop/generator-assets#v2.7.2",
+    "generator-assets": "github:adobe-photoshop/generator-assets#v2.7.3",
     "js-string-escape": "^1",
     "lodash": "~3.8",
     "sanitize-filename": "1.4.x"
